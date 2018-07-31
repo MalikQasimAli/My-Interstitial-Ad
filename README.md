@@ -31,7 +31,7 @@ dependencies {
   ```
 Step 1 :
 
-* Crate Account on [JSONBIN]https://jsonbin.io/) 100% free JSON Bin website.
+* Crate Account on [JSONBIN](https://jsonbin.io/) 100% free JSON Bin website.
 ```
 
  ```
@@ -69,7 +69,7 @@ Step 2 :
 ```
 ### Important Note :
 ```
-* Get your secret key [JSONBIN]https://jsonbin.io/api-keys) 
+* Get your secret key [JSONBIN](https://jsonbin.io/api-keys) 
 * Copy Bin id. 
 ```
 
