@@ -44,7 +44,8 @@ public class Ads_Server
     result_ads_Server resultAdsServer;
     public static Ads_data adsData;
 
-    public static String link_schdule= "https://api.jsonbin.io/b/5b601bcc2b23fb1f2b6a46e7/latest";
+
+
 
 
     Bitmap bitmap1,bitmap2,bitmap3;
@@ -60,10 +61,10 @@ public class Ads_Server
 
     }
 
-    public void hit_server()
+    public void hit_server(String Link, String Secret_key)
     {
 
-        get_data(link_schdule);
+        get_data(Link,Secret_key);
 
     }
 
@@ -102,8 +103,7 @@ public class Ads_Server
                         if (number==0)
                         {
                             bitmap1=resource;
-                            show_ad(0);
-                         //   Log.e("Ready resource","ready");
+                        
                         }else if (number==1)
                         {
                             bitmap2=resource;
@@ -199,7 +199,7 @@ public class Ads_Server
 
     }
 
-    private void get_data(String Link) {
+    private void get_data(String Link,final String key) {
      //   prog.show();
        // prog.setCancelable(false);
         RequestQueue queue = Volley.newRequestQueue(context);
@@ -250,7 +250,7 @@ public class Ads_Server
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
 
-                headers.put("secret-key", "$2a$10$GlNnwJQyHue.TYBBkmxnd.KsVruNGM0XhGK1sHuU9dSip7U3oceAC");
+                headers.put("secret-key", key);
                 return headers;
             }
 
