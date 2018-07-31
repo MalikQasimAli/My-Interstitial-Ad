@@ -25,7 +25,7 @@ dependencies {
 	       implementation 'com.github.MalikQasimAli:My-Interstitial-Ad:1.0.1'
 	}
   
-
+  ```
 ### Server Setup  
 
   ```
