@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/GtSC7gi.jpg" alt="My Interstitial Ad"/>
+
 ## Getting Started
 
 ### Prerequisites
