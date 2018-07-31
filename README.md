@@ -31,7 +31,7 @@ dependencies {
   ```
 Step 1 :
 
-* Crate Account on [JSONBIN](https://jsonbin.io/) 100% free JSON Bin website.
+* Crate Account on https://jsonbin.io/ 100% free JSON Bin website.
 ```
 
  ```
@@ -69,7 +69,7 @@ Step 2 :
 ```
 ### Important Note :
 ```
-* Get your secret key [JSONBIN](https://jsonbin.io/api-keys) 
+* Get your secret key https://jsonbin.io/api-keys
 * Copy Bin id. 
 ```
 
@@ -110,5 +110,15 @@ check if request sucessfuly executed.
  {
    show_ad(number)
  }
+ 
+ ```
+ 
+ This is it. This is first release and my first library please give me your suggestions.
+ 
+ 
+ ## TO DO LIST
+ 
+ ```
+ * Make it more dynamic instead of creating 3 ads. 
  
  ```
