@@ -1,4 +1,4 @@
-How to use :
+## Getting Started
 
 Step 1 : 
 
