@@ -65,5 +65,50 @@ Step 2 :
 * Link: paste your app package name
 * pic: upload image on any server or use [imgur](http://www.imgur.com/) and paste direct link here.
 
+
+```
+### Important Note :
+```
+* Get your secret key [JSONBIN]https://jsonbin.io/api-keys) 
+* Copy Bin id. 
 ```
 
+### Use of Library
+
+```
+implements Ads_Server.result_ads_Server in your activity.
+
+ Ads_Server ads_server= new Ads_Server(this,this);
+ ads_server.hit_server(BinID, secret_key);
+
+```
+
+#### Response
+
+check if request sucessfuly executed.
+
+```
+  @Override
+    public void sucess() {
+       
+    }
+    
+ ```
+ Ready your resource 
+ 
+ ```
+  ads_server.ready_resouce(number);
+   
+   number can be 0 or 1 or 2 only because we have 3 ads.
+ 
+ ```
+ 
+ ```
+ Check of ad is ready and show it.
+ 
+ if(ads_server.ready_resource(number))
+ {
+   show_ad(number)
+ }
+ 
+ ```
