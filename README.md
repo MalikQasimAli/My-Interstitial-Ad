@@ -33,7 +33,7 @@ dependencies {
   ```
 Step 1 :
 
-* Crate Account on https://jsonbin.io/ 100% free JSON Bin website.
+* Create Account on https://jsonbin.io/ 100% free JSON Bin website.
 ```
 
  ```
