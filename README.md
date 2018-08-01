@@ -65,7 +65,7 @@ Step 2 :
 
 * Currently it support only 3 ads. 
 * Link: paste your app package name
-* pic: upload image on any server or use [imgur](http://www.imgur.com/) and paste direct link here.
+* pic: upload image on any server or use http://www.imgur.com/ and paste direct link here.
 
 
 ```
